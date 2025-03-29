@@ -21,14 +21,12 @@
 }
 
 .header__name {
-  /* font-size: 18px; */
   font-size: 1.1rem;
   font-weight: 600;
   text-transform: uppercase;
 }
 
 .header__tel {
-  /* font-size: 28px; */
   font-size: 1.8rem;
   white-space: nowrap;
 }
