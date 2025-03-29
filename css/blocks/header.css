@@ -1,0 +1,55 @@
+.header__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 44px;
+  padding: 15px 30px;
+}
+
+.header__info {
+  max-width: 170px;
+}
+
+.header__main,
+.header__block {
+  gap: 30px;
+}
+
+.header__block {
+  display: flex;
+  align-items: center;
+}
+
+.header__name {
+  /* font-size: 18px; */
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.header__tel {
+  /* font-size: 28px; */
+  font-size: 1.8rem;
+  white-space: nowrap;
+}
+
+.extra-line {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 11px;
+  color: var(--color-secondary);
+  font-family: var(--second-family);
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: var(--color-blue-300);
+  z-index: 50;
+}
+
+.extra-line:hover {
+  color: var(--color-gray-100);
+}

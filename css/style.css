@@ -1,0 +1,18 @@
+@import url("global.css");
+
+@import url("fonts.css");
+@import url("normalize.css");
+
+@import url("blocks/header.css");
+@import url("blocks/footer.css");
+
+@import url("blocks/hero.css");
+@import url("blocks/objects.css");
+@import url("blocks/socials-block.css");
+@import url("blocks/projects.css");
+@import url("blocks/offer.css");
+
+/* sliders arrow */
+@import url("blocks/slider.css");
+
+@import url("blocks/media.css");
