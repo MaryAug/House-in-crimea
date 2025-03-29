@@ -46,13 +46,11 @@
 }
 
 .objects__name {
-  /* font-size: 32px; */
   font-size: 2rem;
   margin: 0;
 }
 
 .objects__address {
-  /* font-size: 24px; */
   font-size: 1.5rem;
   font-weight: 400;
   margin: 0;
@@ -85,13 +83,11 @@
 .objects__text {
   margin: 0;
   font-weight: 400;
-  /* font-size: 22px; */
   font-size: 1.4rem;
   color: var(--color-blue-100);
 }
 
 .objects__value {
-  /* font-size: 22px; */
   font-size: 1.4rem;
   color: var(--color-secondary);
 }
