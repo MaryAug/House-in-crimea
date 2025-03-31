@@ -47,13 +47,13 @@
   max-height: 260px;
   padding: 10px;
   background-color: var(--color-white);
-  cursor: zoom-in;
 }
 
 .projects__img {
   width: 290px;
   height: 240px;
   object-fit: contain;
+  cursor: zoom-in;
 }
 
 .projects__price {
@@ -82,5 +82,5 @@
 
 .projects__value {
   font-size: 1.4rem;
-  color: var(--color-secondary);
+  color: var(--color-white);
 }

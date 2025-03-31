@@ -1,7 +1,7 @@
 .hero__wrapper {
   position: relative;
   padding: 80px 110px 110px;
-  color: var(--color-secondary);
+  color: var(--color-white);
   border-radius: var(--radius);
   background: var(--gradient);
 }
@@ -23,7 +23,10 @@
 
 .hero__title {
   max-width: 645px;
-  font-weight: 500;
+}
+
+.hero__title--accent {
+  color: var(--color-primary);
 }
 
 .hero__info {
@@ -43,7 +46,6 @@
 }
 
 .hero__item {
-  /* font-size: 22px; */
   font-size: 1.4rem;
   font-weight: 400;
 }

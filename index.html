@@ -60,7 +60,7 @@
               <div class="hero__info">
                 <h1 class="title hero__title">
                   Каталог проектов
-                  <span class="text text--accent"
+                  <span class="hero__title--accent"
                     >от компании "Дом в Крыму"</span
                   >
                 </h1>
@@ -117,26 +117,29 @@
                   </div>
                   <div class="splide__track">
                     <ul class="splide__list">
-                      <li class="splide__slide objects__slide">
-                        <img
-                          src="img/slide-1.jpg"
-                          alt=""
-                          class="objects__slide-img"
-                        />
+                      <li class="splide__slide">
+                        <a data-fslightbox="gallery" href="img/slide-1.jpg">
+                          <img
+                            src="img/slide-1.jpg"
+                            alt=""
+                            class="objects__slide-img"
+                        /></a>
                       </li>
                       <li class="splide__slide">
-                        <img
-                          src="img/slide-2.jpg"
-                          alt=""
-                          class="objects__slide-img"
-                        />
+                        <a data-fslightbox="gallery" href="img/slide-2.jpg">
+                          <img
+                            src="img/slide-2.jpg"
+                            alt=""
+                            class="objects__slide-img"
+                        /></a>
                       </li>
                       <li class="splide__slide">
-                        <img
-                          src="img/slide-3.jpg"
-                          alt=""
-                          class="objects__slide-img"
-                        />
+                        <a data-fslightbox="gallery" href="img/slide-3.jpg">
+                          <img
+                            src="img/slide-3.jpg"
+                            alt=""
+                            class="objects__slide-img"
+                        /></a>
                       </li>
                     </ul>
                   </div>
@@ -147,7 +150,9 @@
                     <p class="objects__address">Уютное, ул. Ореховая</p>
                   </div>
                   <div class="objects__img-wrap">
-                    <img src="img/object.jpg" alt="" class="objects__img" />
+                    <a data-fslightbox="gal" href="img/object.jpg">
+                      <img src="img/object.jpg" alt="" class="objects__img"
+                    /></a>
                   </div>
                   <div class="objects__price">
                     <p class="objects__text">Стоимость</p>
@@ -183,26 +188,29 @@
                   </div>
                   <div class="splide__track">
                     <ul class="splide__list">
-                      <li class="splide__slide objects__slide">
-                        <img
-                          src="img/slide-5.jpg"
-                          alt=""
-                          class="objects__slide-img"
-                        />
+                      <li class="splide__slide">
+                        <a data-fslightbox="gallery1" href="img/slide-5.jpg">
+                          <img
+                            src="img/slide-5.jpg"
+                            alt=""
+                            class="objects__slide-img"
+                        /></a>
                       </li>
                       <li class="splide__slide">
-                        <img
-                          src="img/slide-6.jpg"
-                          alt=""
-                          class="objects__slide-img"
-                        />
+                        <a data-fslightbox="gallery2" href="img/slide-6.jpg">
+                          <img
+                            src="img/slide-6.jpg"
+                            alt=""
+                            class="objects__slide-img"
+                        /></a>
                       </li>
                       <li class="splide__slide">
-                        <img
-                          src="img/slide-7.jpg"
-                          alt=""
-                          class="objects__slide-img"
-                        />
+                        <a data-fslightbox="gallery3" href="img/slide-7.jpg">
+                          <img
+                            src="img/slide-7.jpg"
+                            alt=""
+                            class="objects__slide-img"
+                        /></a>
                       </li>
                     </ul>
                   </div>
@@ -213,7 +221,9 @@
                     <p class="objects__address">Уютное, ул. Ореховая</p>
                   </div>
                   <div class="objects__img-wrap">
-                    <img src="img/object.jpg" alt="" class="objects__img" />
+                    <a data-fslightbox="gal1" href="img/object.jpg">
+                      <img src="img/object.jpg" alt="" class="objects__img"
+                    /></a>
                   </div>
                   <div class="objects__price">
                     <p class="objects__text">Стоимость</p>
@@ -264,7 +274,9 @@
               <div class="projects__content">
                 <h3 class="projects__name">Проект дома "Вардос" 140 м2</h3>
                 <div class="projects__img-wrap">
-                  <img src="img/object.jpg" alt="" class="projects__img" />
+                  <a data-fslightbox="gal2" href="img/object.jpg">
+                    <img src="img/object.jpg" alt="" class="projects__img"
+                  /></a>
                 </div>
                 <div class="projects__price">
                   <div class="projects__price-item">
@@ -314,7 +326,7 @@
             <div class="footer__content">
               <div class="footer__title">
                 Приезжайте в наш
-                <span class="text text--accent">уютный офис</span>
+                <span class="footer__title--accent">уютный офис</span>
               </div>
               <ul class="footer__list list-reset">
                 <li class="footer__item">&mdash; Рассчитать стоимость</li>
@@ -357,11 +369,24 @@
               >
             </div>
           </div>
+          <div class="extra-btns">
+            <a
+              href="https://t.me/densimf"
+              class="extra-btns__btn extra-btns__btn--tg link"
+              >Позвонить</a
+            >
+            <a
+              href="https://wa.me/+79781232221"
+              class="extra-btns__btn extra-btns__btn--wa link"
+              >Написать в WhatsApp</a
+            >
+          </div>
         </div>
       </footer>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="js/fslightbox.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
